@@ -1,0 +1,102 @@
+html { 
+    background: url(gym.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+  }
+
+
+  .get-in-touch {
+    max-width: 800px;
+    margin: 30px auto;
+    position: relative;  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    line-height: 28px;
+    padding-bottom: 20px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#e77773  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#e77773  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#e77773  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .exer-form .form-field {
+    position: relative;
+    margin: 12px 0;
+  }
+  .exer-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .exer-form .input-text:focus {
+    outline: none;
+  }
+  .exer-form .input-text:focus + .label,
+  .exer-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .exer-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 7px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .exer-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    width:800px;
+    cursor: pointer;
+  }
+  
+  .input-text{
+      padding: 5px 5px;
+  }
+
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.6em;
+    line-height: 48px;
+    padding-bottom: 30px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#fafafa  0%,#b8b2e1 100%) !important;
+      background: -webkit-linear-gradient(left,#ffffff  0%,#b8b2e1 100%) !important;
+      background: linear-gradient(to right,#ffffff  0%,#b8b2e1  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+
+  
