@@ -11,10 +11,11 @@ CREATE TABLE exercises (
 
 DELETE FROM exercises;
 
-INSERT INTO exercises (date, name, weight, sets, reps) VALUES ('Jan-08-1999', 'squat', 150 ,3, 10);
-INSERT INTO exercises (date, name, weight, sets, reps) VALUES ('Feb-08-1999', 'deadlift', 135, 5, 5);
-INSERT INTO exercises (date, name, weight,sets, reps) VALUES ('Mar-08-1999', 'benchpress', 185, 3, 10);
-
+INSERT INTO exercises (date, name, weight, sets, reps) VALUES ('Mar-15-2022', 'Squat', 225 ,5, 5);
+INSERT INTO exercises (date, name, weight, sets, reps) VALUES ('Mar-15-2022', 'Deadlift', 275, 5, 5);
+INSERT INTO exercises (date, name, weight,sets, reps) VALUES ('Mar-15-2022', 'Bench Press', 185, 5, 5);
+INSERT INTO exercises (date, name, weight,sets, reps) VALUES ('Mar-15-2022', 'Strict Press', 95, 5, 5);
+INSERT INTO exercises (date, name, weight,sets, reps) VALUES ('Mar-15-2022', 'Sit Ups', 0, 3, 25);
 
 
 
