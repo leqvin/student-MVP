@@ -1,3 +1,6 @@
+//Globals
+let tableBody = document.getElementById("tBody");
+
 const getData = () => {
   fetch("/exercises")
     .then((response) => response.json())
@@ -10,7 +13,6 @@ const newEntry = () => {
   let formEl = document.querySelector(".exer-form");
 
   formEl.addEventListener("submit", (e) => {
-    e.preventDefault();
     const data = new FormData(e.target);
     console.log(data.get("sets"))
     const entryData = {
@@ -56,7 +58,6 @@ const buildCard = (data) => {
   }
 };
 
-var tableBody = document.getElementById("tBody");
 
 tableBody.addEventListener("click", (e) => {
   if ((e.target.tagName = "button")) {
