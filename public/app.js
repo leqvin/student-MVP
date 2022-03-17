@@ -13,8 +13,8 @@ const newEntry = () => {
   let formEl = document.querySelector(".exer-form");
 
   formEl.addEventListener("submit", (e) => {
+    getData()
     const data = new FormData(e.target);
-    console.log(data.get("sets"))
     const entryData = {
       date: data.get("date"),
       name: data.get("name"),
@@ -33,7 +33,6 @@ const newEntry = () => {
 
     fetch("/", requestOptions)
       .then((res) => res.json())
-      .then(getData())
       .catch((error) => console.log("error", error));
   });
 };
